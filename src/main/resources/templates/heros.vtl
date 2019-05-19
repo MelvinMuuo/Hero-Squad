@@ -4,9 +4,6 @@
   <ul>
     #foreach ($hero in $heros)
       <li><a href="/heros/$hero.getId()">$hero.getName()</a></li>
-      <li><a href="/heros/$hero.getId()">$hero.getAge()</a></li>
-      <li><a href="/heros/$hero.getId()">$hero.getPower()</a></li>
-      <li><a href="/heros/$hero.getId()">$hero.getWeakness()</a></li>
     #end
   </ul>
 #else
