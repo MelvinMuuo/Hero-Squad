@@ -3,11 +3,11 @@
 #if ($heros)
   <ul>
     #foreach ($hero in $heros)
-      <li><a href="/heros/$hero.getId()">$hero.getName()</a></li>
+      <li><a href="/heros/$hero/$hero.getId()">$hero.getName()</a></li>
     #end
   </ul>
 #else
   <p>No heros!</p>
 #end
 
-<a href="/heros/new">Add New Hero</a>
+<a href="/heros/new">Add new Hero</a>

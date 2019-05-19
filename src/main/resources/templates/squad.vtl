@@ -1,4 +1,4 @@
-<h1>$squad.getName()</h1>
+<h1>$squad.getName() heros:</h1>
 
 <ul>
   #foreach($hero in $squad.getHeros())
@@ -7,5 +7,5 @@
 </ul>
 
 
-<a href="/squads"/$squad.getId()/heros/new">Add a new hero</a>
+<a href="/squads/$squad.getId()/heros/new">Add a new hero</a>
 <a href="/squads">All squads</a>
