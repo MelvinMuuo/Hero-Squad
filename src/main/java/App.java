@@ -20,5 +20,13 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
+    get("heros", (request, response) -> {
+      Map<String, Object> model = new HashMap<String, Object>();
+      model.put("heros", Hero.all());
+      model.put("template", "templates/heros.vtl");
+      return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
+
+
   }
 }
