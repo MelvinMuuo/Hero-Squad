@@ -34,10 +34,11 @@ public class App {
       String age = request.queryParams("age");
       String power = request.queryParams("power");
       String weakness = request.queryParams("weakness");
-      Hero newHeroOne = new Hero(name, age, power, weakness);
+      Hero newHero = new Hero(name, age, power, weakness);
       model.put("template", "templates/success.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
+
     get("/heros/:id", (request, response) -> {
       HashMap<String, Object> model = new HashMap<String, Object>();
       Hero hero= Hero.find(Integer.parseInt(request.params(":id")));
