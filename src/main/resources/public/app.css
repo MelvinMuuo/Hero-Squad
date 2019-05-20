@@ -138,3 +138,23 @@ a {
   font-size: 0.6cm;
   color: red;
 }
+.footer {
+  margin-top: 1cm;
+  height: 2cm;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #17202A;
+}
+.alllist {
+  color: black;
+  font-size: 0.7cm;
+  font-weight: bold;
+  font-family: "DINNextW01-CondensedMed";
+  letter-spacing: 2px;
+  margin-left: 11cm;
+  margin-top: 20px;
+}
+.superman{
+  margin-left: 11cm;
+}
