@@ -15,7 +15,7 @@
   color: black;
   border-style: solid;
   height: 50px;
-  border-width: 5px;
+  border-width: 2px;
   border-radius: 25px;
 }
 .line2{
@@ -25,6 +25,30 @@
   color: black;
   border-style: solid;
   height: 50px;
-  border-width: 5px;
+  border-width: 2px;
   border-radius: 25px;
+}
+.intro {
+  font-size: 0.8cm;
+  margin-top: 20px;
+  margin-left: 10cm;
+}
+.form1 {
+  margin-top: 50px;
+  margin-left: 7cm;
+  margin-right: 7cm;
+}
+input {
+  width: 100%;
+  border-radius: 25px;
+  height: 30px;
+}
+#name {
+  margin-top: 20px;
+}
+#cause {
+  margin-top: 20px;
+}
+#size {
+  margin-top: 20px;
 }

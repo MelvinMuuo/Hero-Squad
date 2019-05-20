@@ -1,15 +1,19 @@
-<h1>Add a squad</h1>
+<div class="header">
+  <h1 class="header1">Add a squad</h1>
+</div>
+<p class="intro"> Add a squad here:</p>
 
-<p> Add a squad here:</p>
+<div class="form1">
+  <form action="/squads" method="post">
+    <label for="name">Squad name:</label><br>
+    <input id="name" name="name" type="text"><br>
 
-<form action="/squads" method="post">
-  <label for="name">Squad name</label>
-  <input id="name" name="name" type="text">
+    <label for="cause">Squad cause:</label><br>
+    <input id="cause" name="cause" type="text"><br>
 
-  <label for="cause">Squad cause</label>
-  <input id="cause" name="cause" type="text">
-
-  <label for="size">Squad size</label>
-  <input id="size" name="size" type="text">
-  <button type="submit" class="btn btn-success">Add Squad</button>
-</form>
+    <label for="size">Squad size:</label><br>
+    <input id="size" name="size" type="text"><br>
+    <br>
+    <button type="submit" class="btn btn-success">Add Squad</button>
+  </form>
+</div>
