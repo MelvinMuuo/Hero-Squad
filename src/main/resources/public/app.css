@@ -1,4 +1,10 @@
 .header {
-  background-color: black;
+  background-color: #808B96;
   height: 3cm;
+}
+.header1 {
+  color:  white;
+  margin-left: 10cm;
+  font-weight: bold;
+  font-size: 1.5cm;
 }
