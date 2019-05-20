@@ -158,3 +158,44 @@ a {
 .superman{
   margin-left: 11cm;
 }
+.titleform{
+  color: black;
+  font-size: 0.8cm;
+  font-weight: bold;
+  font-family: "DINNextW01-CondensedMed";
+  letter-spacing: 2px;
+  margin-left: 11cm;
+  margin-top: 20px;
+}
+.labelform{
+  color: black;
+  font-size: 0.6cm;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  margin-left: 0cm;
+  margin-top: 20px;
+}
+.squadphoto{
+  margin-left: 10cm;
+}
+.successphoto{
+  margin-left: 7cm;
+}
+.p2{
+  font-size: 0.8cm;
+  font-family: monospace;
+  font-weight: bold;
+}
+.listings{
+  margin-left: 10cm;
+  margin-top: 20px;
+}
+.greyline2{
+  border-color: #808B96;
+  display: block;
+  margin-left: 2cm;
+  margin-right: 14cm;
+  border-width: -1cm;
+  height: 3px;
+}
