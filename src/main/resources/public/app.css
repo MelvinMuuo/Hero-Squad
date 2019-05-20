@@ -11,7 +11,7 @@
   letter-spacing: 3px;
 }
 .line1{
-  margin-top: 3cm;
+  margin-top: 1cm;
   margin-left: 10cm;
   margin-right: 10cm;
   color: black;
@@ -21,7 +21,7 @@
   border-radius: 25px;
 }
 .line2{
-  margin-top: 2.5cm;
+  margin-top: 1cm;
   margin-left: 10cm;
   margin-right: 10cm;
   color: black;
@@ -119,11 +119,22 @@ input {
   color: black;
   font-size: 0.7cm;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "DINNextW01-CondensedMed";
+  letter-spacing: 2px;
+  margin-left: 11cm;
+  margin-top: 20px;
 }
 .intro3 {
   color: black;
   font-size: 0.7cm;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "DINNextW01-CondensedMed";
+  letter-spacing: 2px;
+  margin-left: 11cm;
+  margin-top: 20px;
+}
+a {
+  margin-left: 2.8cm;
+  font-size: 0.6cm;
+  color: red;
 }
