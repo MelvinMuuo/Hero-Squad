@@ -37,4 +37,7 @@ public class Squad {
   public void addHero(Hero hero){
     mHeros.add(hero);
   }
+  public static void clear() {
+    instances.clear();
+  }
 }

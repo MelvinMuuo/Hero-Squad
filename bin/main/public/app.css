@@ -108,22 +108,3 @@ input {
   border-width: 2px;
   height: 3px;
 }
-.intro {
-  margin-top: -30px;
-  color: white;
-  font-size: 0.7cm;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-.intro2 {
-  color: black;
-  font-size: 0.7cm;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-.intro3 {
-  color: black;
-  font-size: 0.7cm;
-  font-weight: bold;
-  font-family: sans-serif;
-}
