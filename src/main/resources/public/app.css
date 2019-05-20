@@ -8,3 +8,23 @@
   font-weight: bold;
   font-size: 1.5cm;
 }
+.line1{
+  margin-top: 3cm;
+  margin-left: 10cm;
+  margin-right: 10cm;
+  color: black;
+  border-style: solid;
+  height: 50px;
+  border-width: 5px;
+  border-radius: 25px;
+}
+.line2{
+  margin-top: 2.5cm;
+  margin-left: 10cm;
+  margin-right: 10cm;
+  color: black;
+  border-style: solid;
+  height: 50px;
+  border-width: 5px;
+  border-radius: 25px;
+}
