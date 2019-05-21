@@ -1,15 +1,21 @@
 <div class="header">
   <h1 class="header1">Hero list</h1>
+  <hr class="greyline">
 </div>
-#if ($heros)
-  <ul>
-    #foreach ($hero in $heros)
-      <li><a href="/heros/$hero/$hero.getId()">$hero.getName()</a></li>
-    #end
-  </ul>
-#else
+<p class="alllist">Here are your Heros:</p>
+<li class="incredibles"><img src='/images/incredibles.jpg' alt='A photo of superheros.' width="500px" height="400px"/></li>
+<div class="listings">
+  #if ($heros)
+    <ul>
+      #foreach ($hero in $heros)
+        <li><a href="/heros/$hero/$hero.getId()">$hero.getName()</a></li>
+        <hr class="greyline2">
+      #end
+    </ul>
+  #else
   <p>No heros!</p>
 #end
+</div>
 
 <div class="line1">
   <a href="/squads/$squad.getId()/heros/new">Add a new hero</a>
