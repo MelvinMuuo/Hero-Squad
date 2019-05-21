@@ -1,27 +1,27 @@
 <div class="header">
+  <h1 class="header1">Add your Hero!</h1>
+  <hr class="greyline">
 </div>
+<p class="titleform">Add a hero to squad $squad.getName()!</p>
+<li class="squadphoto"><img src='/images/superheroeswengi.jpg' alt='A photo of a group of superheros.' width="350px" height="200px"/></li>
 
-<p class="intro">Add a hero to $squad.getName()</p>
 
-<div class="form1">
+<div class="form2">
   <form action="/heros" method="post">
     <input id="squadId" name ="squadId" type="hidden" value="$squad.getId()">
-
-
     <div class="form-group">
-      <label for="name">Hero Name</label>
+      <label for="name" class="labelform">Hero Name:</label>
       <input id="name" name="name" type="text" class="form-control">
 
-      <label for="age">Hero Age</label>
+      <label for="age" class="labelform">Hero Age:</label>
       <input id="age" name="age" type="text" class="form-control">
 
-      <label for="power">Hero Power</label>
+      <label for="power" class="labelform">Hero Power:</label>
       <input id="power" name="power" type="text" class="form-control">
 
-      <label for="weakness">Hero Weakness</label>
+      <label for="weakness" class="labelform">Hero Weakness:</label>
       <input id="weakness" name="weakness" type="text" class="form-control">
     </div>
-
     <button type="submit" class="btn btn-success">Add hero</button>
   </form>
 </div>

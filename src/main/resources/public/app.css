@@ -199,3 +199,60 @@ a {
   border-width: -1cm;
   height: 3px;
 }
+.spiderman{
+  margin-left: 12cm;
+}
+.threecoolheroes{
+  margin-left: 8cm;
+}
+.line5{
+  margin-top: 1cm;
+  margin-left: 10cm;
+  margin-right: 10cm;
+  color: black;
+  border-style: solid;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 25px;
+}
+.line6{
+  margin-top: 0cm;
+  margin-left: 10cm;
+  margin-right: 10cm;
+  color: black;
+  border-style: solid;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 25px;
+}
+.p3{
+  font-size: 0.8cm;
+  font-family: monospace;
+  font-weight: bold;
+  margin-left: 8cm;
+}
+.form2 {
+  margin-top: 30px;
+  margin-left: 7cm;
+  margin-right: 7cm;
+}
+.p4{
+  font-size: 0.8cm;
+  font-family: monospace;
+  font-weight: bold;
+  margin-left: 10cm;
+  margin-top: 1cm;
+}
+.line7{
+  margin-top: 1cm;
+  margin-left: 11cm;
+  margin-right: 10cm;
+  color: black;
+  border-style: solid;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 25px;
+}
+.successphoto5{
+  margin-left: 9cm;
+}
